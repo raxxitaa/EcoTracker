@@ -1,0 +1,15 @@
+## MongoDB CRUD Operation Test
+
+### ✔️ Create:
+Inserted a new document using Mongoose into the `activities` collection via `/api/activities` POST request.
+
+### ✔️ Read:
+Fetched the activities list for logged-in user via `/api/activities` GET request.
+
+### ✔️ Update:
+Used Mongoose `findByIdAndUpdate()` method (can be added in future).
+
+### ✔️ Delete:
+Used Mongoose `findByIdAndDelete()` method (can be added in future).
+
+All tests were done using Postman on localhost.

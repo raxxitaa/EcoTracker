@@ -1,0 +1,11 @@
+MongoDB Replication:
+
+Replication is the process of synchronizing data across multiple servers.
+It provides redundancy and increases data availability.
+
+Key components:
+- Primary node: receives all writes.
+- Secondary nodes: replicate data from the primary.
+
+Command to initiate replica set:
+rs.initiate()

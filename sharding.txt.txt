@@ -1,0 +1,8 @@
+MongoDB Sharding:
+
+Sharding is used to handle large datasets by distributing them across multiple servers (shards).
+It improves read/write scalability.
+
+Steps:
+1. Enable sharding on DB: sh.enableSharding("mydb")
+2. Shard a collection: sh.shardCollection("mydb.mycollection", { _id: "hashed" })

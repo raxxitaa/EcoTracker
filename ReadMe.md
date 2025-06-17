@@ -16,8 +16,5 @@ A backend Node.js + MongoDB application that allows users to register, log in, a
 4. Start the server using `npx nodemon server.js`
 5. Test using Postman
 
-## Screenshots
-![screenshot](./screenshots/postman_register.png)
-![screenshot](./screenshots/postman_login.png)
 
 ## Project by: KOVVALI SAI RAXITA 22BCE8965
